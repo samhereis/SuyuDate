@@ -20,7 +20,7 @@ var app = builder.Build();
 
 app.UseCors(corsPolicyBuilder =>
 {
-    corsPolicyBuilder.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200");
+    corsPolicyBuilder.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:4200");
 });
 
 app.MapControllers();
