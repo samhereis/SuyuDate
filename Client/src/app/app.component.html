@@ -2,6 +2,6 @@
 
 <ul>
   <li *ngFor="let user of users">
-    {{user.id}} - {{user.userName}}
+    {{user.id}} - {{user.userName}} - {{user.passwordHash}} - {{user.passwordSalt}}
   </li>
 </ul>
