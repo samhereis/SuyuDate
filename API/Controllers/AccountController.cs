@@ -9,12 +9,12 @@ using System.Text;
 
 namespace API.Controllers
 {
-    public class AccountController : BaseApiController
+    public class AccountsController : BaseApiController
     {
         private DataContext _dataContext;
         private ITokenService _tokenService;
 
-        public AccountController(DataContext dataContext, ITokenService tokenService)
+        public AccountsController(DataContext dataContext, ITokenService tokenService)
         {
             _dataContext = dataContext;
             _tokenService = tokenService;
